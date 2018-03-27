@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Test Suite" duration-ms="29" started-at="2018-03-27T14:52:58Z" finished-at="2018-03-27T14:52:58Z">
+    <groups>
+      <group name="cars">
+        <method signature="TestNG_Grouping.testAudiA6()[pri:0, instance:com.expedia.flightbooking.TestNG_Grouping@783e6358]" name="testAudiA6" class="com.expedia.flightbooking.TestNG_Grouping"/>
+        <method signature="TestNG_Grouping.testBMWX6()[pri:0, instance:com.expedia.flightbooking.TestNG_Grouping@783e6358]" name="testBMWX6" class="com.expedia.flightbooking.TestNG_Grouping"/>
+      </group> <!-- cars -->
+      <group name="suv">
+        <method signature="TestNG_Grouping.testBMWX6()[pri:0, instance:com.expedia.flightbooking.TestNG_Grouping@783e6358]" name="testBMWX6" class="com.expedia.flightbooking.TestNG_Grouping"/>
+      </group> <!-- suv -->
+      <group name="sedan">
+        <method signature="TestNG_Grouping.testAudiA6()[pri:0, instance:com.expedia.flightbooking.TestNG_Grouping@783e6358]" name="testAudiA6" class="com.expedia.flightbooking.TestNG_Grouping"/>
+      </group> <!-- sedan -->
+    </groups>
+    <test name="GroupsDemo" duration-ms="29" started-at="2018-03-27T14:52:58Z" finished-at="2018-03-27T14:52:58Z">
+      <class name="com.expedia.flightbooking.TestNG_Grouping">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.expedia.flightbooking.TestNG_Grouping@783e6358]" name="setUp" is-config="true" duration-ms="8" started-at="2018-03-27T14:52:58Z" finished-at="2018-03-27T14:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testAudiA6()[pri:0, instance:com.expedia.flightbooking.TestNG_Grouping@783e6358]" name="testAudiA6" duration-ms="0" started-at="2018-03-27T14:52:58Z" finished-at="2018-03-27T14:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAudiA6 -->
+        <test-method status="PASS" signature="testBMWX6()[pri:0, instance:com.expedia.flightbooking.TestNG_Grouping@783e6358]" name="testBMWX6" duration-ms="1" started-at="2018-03-27T14:52:58Z" finished-at="2018-03-27T14:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBMWX6 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.expedia.flightbooking.TestNG_Grouping@783e6358]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-03-27T14:52:58Z" finished-at="2018-03-27T14:52:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.expedia.flightbooking.TestNG_Grouping -->
+    </test> <!-- GroupsDemo -->
+  </suite> <!-- Regression Test Suite -->
+</testng-results>

@@ -1,0 +1,40 @@
+INFO  | 2018-03-26 23:06:42 | [main] flightbooking.TestNG_TestSuite (TestNG_TestSuite.java:33) - Start url!
+INFO  | 2018-03-26 23:06:42 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:72) - Click on Flights tab!
+INFO  | 2018-03-26 23:06:47 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:83) - Click on Roundtrip tab!
+INFO  | 2018-03-26 23:06:47 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:99) - Insert word for origine location to check suggestion!
+INFO  | 2018-03-26 23:06:48 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:108) - Select suggested origine location!
+INFO  | 2018-03-26 23:06:48 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:119) - Insert word for destination location to check suggestion!
+INFO  | 2018-03-26 23:06:48 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:128) - Select suggested destination location!
+INFO  | 2018-03-26 23:06:52 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:156) - Insert checkin date as 03/27/2018
+INFO  | 2018-03-26 23:06:55 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:169) - Insert checkin date as 03/29/2018
+INFO  | 2018-03-26 23:06:56 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:180) - Click on button Search!
+INFO  | 2018-03-27 21:24:01 | [main] flightbooking.TestNG_TestSuite (TestNG_TestSuite.java:32) - Start url!
+INFO  | 2018-03-27 21:24:02 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:72) - Click on Flights tab!
+INFO  | 2018-03-27 21:24:07 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:83) - Click on Roundtrip tab!
+INFO  | 2018-03-27 21:24:07 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:99) - Insert word for origine location to check suggestion!
+INFO  | 2018-03-27 21:24:07 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:108) - Select suggested origine location!
+INFO  | 2018-03-27 21:24:08 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:119) - Insert word for destination location to check suggestion!
+INFO  | 2018-03-27 21:24:08 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:128) - Select suggested destination location!
+INFO  | 2018-03-27 21:24:11 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:156) - Insert checkin date as 03/28/2018
+INFO  | 2018-03-27 21:24:14 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:169) - Insert checkin date as 03/30/2018
+INFO  | 2018-03-27 21:24:15 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:180) - Click on button Search!
+INFO  | 2018-03-27 21:26:10 | [main] flightbooking.TestNG_TestSuite (TestNG_TestSuite.java:32) - Start url!
+INFO  | 2018-03-27 21:26:11 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:72) - Click on Flights tab!
+INFO  | 2018-03-27 21:26:16 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:83) - Click on Roundtrip tab!
+INFO  | 2018-03-27 21:26:16 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:99) - Insert word for origine location to check suggestion!
+INFO  | 2018-03-27 21:26:16 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:108) - Select suggested origine location!
+INFO  | 2018-03-27 21:26:17 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:119) - Insert word for destination location to check suggestion!
+INFO  | 2018-03-27 21:26:17 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:128) - Select suggested destination location!
+INFO  | 2018-03-27 21:26:20 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:156) - Insert checkin date as 03/28/2018
+INFO  | 2018-03-27 21:26:24 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:169) - Insert checkin date as 03/30/2018
+INFO  | 2018-03-27 21:26:24 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:180) - Click on button Search!
+INFO  | 2018-03-27 21:45:08 | [main] flightbooking.TestNG_TestSuite (TestNG_TestSuite.java:32) - Start url!
+INFO  | 2018-03-27 21:45:08 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:72) - Click on Flights tab!
+INFO  | 2018-03-27 21:45:13 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:83) - Click on Roundtrip tab!
+INFO  | 2018-03-27 21:45:13 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:99) - Insert word for origine location to check suggestion!
+INFO  | 2018-03-27 21:45:14 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:108) - Select suggested origine location!
+INFO  | 2018-03-27 21:45:14 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:119) - Insert word for destination location to check suggestion!
+INFO  | 2018-03-27 21:45:14 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:128) - Select suggested destination location!
+INFO  | 2018-03-27 21:45:18 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:156) - Insert checkin date as 03/28/2018
+INFO  | 2018-03-27 21:45:21 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:169) - Insert checkin date as 03/30/2018
+INFO  | 2018-03-27 21:45:21 | [main] pageclass.SearchPageFlightTab (SearchPageFlightTab.java:180) - Click on button Search!

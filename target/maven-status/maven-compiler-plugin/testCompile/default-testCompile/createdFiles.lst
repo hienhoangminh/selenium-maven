@@ -1,0 +1,5 @@
+pageclass/SearchPageFactory.class
+pageclass/TestExpedia.class
+com/expedia/flightbooking/TestNG_Grouping.class
+pageclass/SearchPageFlightTab.class
+com/expedia/flightbooking/TestNG_TestSuite.class
