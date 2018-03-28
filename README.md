@@ -1,4 +1,4 @@
-#Selenium-maven
+# Selenium-maven
 
 ## Requirement :
  1 - Browser : Firefox v53.0 since geckdodriver used is 1.0.18
@@ -29,14 +29,14 @@
  Please configure your credentials by issuing command line: `git config --global user.name = "your_name"` and
  `git config --global user.email = "example@yourmail.com"` 
 
- ## RUn the test:
+ ## Run the test:
  
  ### With Maven:
  1 - Go to your preferred folder then issuing command line : `git pull https://github.com/hienhoangminh/selenium-maven.git`
 
  2 - Browse to project file folder then issuing command line : `mvn clean` to clean the target folder
 
- ![Alt text]([http://i65.tinypic.com/2vct0u1.png "mvn-clean")
+ ![Alt text](http://i65.tinypic.com/2vct0u1.png "mvn-clean")
  
  3 - Issue command line `mvn compile` to compile project.
  ![Alt text](http://i63.tinypic.com/30igmkw.png "mvn-compile")
