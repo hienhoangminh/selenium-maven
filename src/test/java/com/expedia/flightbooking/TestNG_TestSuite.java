@@ -21,7 +21,7 @@ public class TestNG_TestSuite {
     
 	@BeforeClass
 	public void beforeClass() {
-		System.setProperty("webdriver.gecko.driver", "/Users/hoanghien/drivers/geckodriver");
+		System.setProperty("webdriver.gecko.driver", "drivers/geckodriver");
 		driver = new FirefoxDriver();
 		baseUrl = "https://www.expedia.com/";
         sp = new SearchPageFlightTab(driver);

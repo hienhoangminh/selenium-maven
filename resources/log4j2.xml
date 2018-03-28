@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration xmlns="http://logging.apache.org/log4j/2.0/config">
-
+<Configuration>
+	<!-- Define appenders -->
+	<Properties>
+		<Property name="basePath">./logs</Property>
+	</Properties>
 	<Appenders>
-		<File name="FILE" fileName="logs/test.log" append="true">
-			<PatternLayout
-				pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{2} (%F:%L) - %m%n" />
-		</File>
-		<Console name="STDOUT" target="SYSTEM_OUT">
-			<PatternLayout
-				pattern="%-5p | %d{yyyy-MM-dd HH:mm:ss} | [%t] %C{2} (%F:%L) - %m%n" />
+		<RollingFile name="File">
+		 <FileName>${basePath}/app.log</FileName>
+		 <FilePattern>${basePath}/app_%d{yyyy-MM-dd-hh-mm}.log</FilePattern>
+			<PatternLayout pattern="%d{yyyy-MMM-dd HH:mm:ss.SSS} %-5level %c{1} - %msg%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1"
+					modulate="true" />
+				<SizeBasedTriggeringPolicy size="500 KB" />
+			</Policies>
+		</RollingFile>
+
+		<Console name="Console">
+			<!-- %d{HH:mm:ss.SSS}: time when log happens. 5 is for space, - is for 
+				padding. %c : category. %msg : message -->
+			<PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %c{1} - %msg%n" />
 		</Console>
 	</Appenders>
-
+	<!-- Define logger -->
 	<Loggers>
-		<Logger name="com.expedia.flightbooking" level="info" />
-
-		<Root level="info">
-			<AppenderRef ref="STDOUT" />
-			<AppenderRef ref="FILE" />
+		<!-- Root logger -->
+		<Root level="trace">
+			<!-- Which appenders to be used -->
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="File" />
 		</Root>
+		<Logger name="test.logging" level="info" additivity="false">
+			<AppenderRef ref="File" />
+		</Logger>
+			<Logger name="test.training" level="debug" additivity="false">
+			<AppenderRef ref="File" />
+		</Logger>
 	</Loggers>
-
 </Configuration>

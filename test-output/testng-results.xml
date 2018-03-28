@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31128" started-at="2018-03-26T16:02:31Z" finished-at="2018-03-26T16:03:02Z">
+  <suite name="Default suite" duration-ms="31422" started-at="2018-03-28T14:31:04Z" finished-at="2018-03-28T14:31:36Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31128" started-at="2018-03-26T16:02:31Z" finished-at="2018-03-26T16:03:02Z">
+    <test name="Default test" duration-ms="31422" started-at="2018-03-28T14:31:04Z" finished-at="2018-03-28T14:31:36Z">
       <class name="com.expedia.flightbooking.TestNG_TestSuite">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.expedia.flightbooking.TestNG_TestSuite@4b14c583]" name="beforeClass" is-config="true" duration-ms="9985" started-at="2018-03-26T16:02:31Z" finished-at="2018-03-26T16:02:41Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.expedia.flightbooking.TestNG_TestSuite@436813f3]" name="beforeClass" is-config="true" duration-ms="9619" started-at="2018-03-28T14:31:04Z" finished-at="2018-03-28T14:31:14Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="searchExpedia()[pri:0, instance:com.expedia.flightbooking.TestNG_TestSuite@4b14c583]" name="searchExpedia" duration-ms="15718" started-at="2018-03-26T16:02:41Z" finished-at="2018-03-26T16:02:57Z">
+        <test-method status="PASS" signature="searchExpedia()[pri:0, instance:com.expedia.flightbooking.TestNG_TestSuite@436813f3]" name="searchExpedia" duration-ms="16664" started-at="2018-03-28T14:31:14Z" finished-at="2018-03-28T14:31:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchExpedia -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.expedia.flightbooking.TestNG_TestSuite@4b14c583]" name="tearDown" is-config="true" duration-ms="5376" started-at="2018-03-26T16:02:57Z" finished-at="2018-03-26T16:03:02Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.expedia.flightbooking.TestNG_TestSuite@436813f3]" name="tearDown" is-config="true" duration-ms="5126" started-at="2018-03-28T14:31:31Z" finished-at="2018-03-28T14:31:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

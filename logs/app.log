@@ -1,0 +1,10 @@
+2018-Mar-28 21:31:14.469 INFO  TestNG_TestSuite - Start url!
+2018-Mar-28 21:31:14.796 INFO  SearchPageFlightTab - Click on Flights tab!
+2018-Mar-28 21:31:20.088 INFO  SearchPageFlightTab - Click on Roundtrip tab!
+2018-Mar-28 21:31:20.196 INFO  SearchPageFlightTab - Insert word for origine location to check suggestion!
+2018-Mar-28 21:31:20.611 INFO  SearchPageFlightTab - Select suggested origine location!
+2018-Mar-28 21:31:20.963 INFO  SearchPageFlightTab - Insert word for destination location to check suggestion!
+2018-Mar-28 21:31:21.138 INFO  SearchPageFlightTab - Select suggested destination location!
+2018-Mar-28 21:31:24.525 INFO  SearchPageFlightTab - Insert checkin date as 03/29/2018
+2018-Mar-28 21:31:27.729 INFO  SearchPageFlightTab - Insert checkin date as 03/31/2018
+2018-Mar-28 21:31:28.691 INFO  SearchPageFlightTab - Click on button Search!
