@@ -45,6 +45,6 @@
  have only 2 profiles : SanityTest and Regression, which serves for self-training purpose.
  ![Alt text](http://i68.tinypic.com/2ug2sdv.png "mvn-test-profile")
 
- # Run the test with Jenkins: (on-going)
+ ### Run the test with Jenkins: (on-going)
  
  
